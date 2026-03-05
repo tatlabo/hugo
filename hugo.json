@@ -1,0 +1,16 @@
+
+{
+  "module": {
+    "imports": [
+      { "path": "github.com/bep/gallerydeluxe" },
+      { "path": "github.com/bep/hugo-mod-misc/common-partials" }
+    ]
+  },
+  "languageCode": "pl-PL",
+  "title": "Fotoz",
+  "params": {
+    "name": "Strona z moimi zdjęciami",
+    "author": "Adam Kawal",
+    "keywords": "fotografia, zdjęcia, galeria"
+  }
+}

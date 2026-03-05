@@ -1,0 +1,14 @@
+{{ with .Params.hide_foter }}
+    <!-- Footer is hidden -->
+{{ else }}
+
+{{ with .Site.Params }}
+    <footer>
+        <ul>
+            <li>{{ .name }}</li>
+            <li>{{ .author }}</li>
+            <li>{{ .keywords }}</li>
+        </ul>
+    </footer>
+{{ end }}
+{{ end }}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>//localhost:54773/about/</loc>
+  </url><url>
+    <loc>//localhost:54773/posts/</loc>
+  </url><url>
+    <loc>//localhost:54773/categories/</loc>
+  </url><url>
+    <loc>//localhost:54773/</loc>
+  </url><url>
+    <loc>//localhost:54773/housing_part_2/</loc>
+  </url><url>
+    <loc>//localhost:54773/list/</loc>
+  </url><url>
+    <loc>//localhost:54773/posts/pozdrowienia/</loc>
+  </url><url>
+    <loc>//localhost:54773/single/</loc>
+  </url><url>
+    <loc>//localhost:54773/tags/</loc>
+  </url>
+</urlset>

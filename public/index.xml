@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Fotoz</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in Home on Fotoz</description>
+    <generator>Hugo</generator>
+    <language>pl-PL</language>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;its-about-page&#34;&gt;It&amp;rsquo;s about page.&lt;/h2&gt;&#xA;&lt;h2 id=&#34;h2-&#34;&gt;h2 ?&lt;/h2&gt;&#xA;&lt;h2 id=&#34;coloradjustcolor-lightness--2&#34;&gt;color.scale(color, lightness: -2.1473684211%)&#xA;color.adjust(color, lightness: -2%)&lt;/h2&gt;&#xA;&lt;p&gt;More info: &lt;a href=&#34;https://sass-lang.com/d/color-functions&#34;&gt;https://sass-lang.com/d/color-functions&lt;/a&gt;&#xA;WARN  Dart Sass: 1 repetitive deprecation warnings omitted.&#xA;Run in verbose mode to see all warnings.&#xA;Web Server is available at //localhost:1313/ (bind address 127.0.0.1)&#xA;Total in 111 ms&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Housing, odc. 2</title>
+      <link>//localhost:1313/housing_part_2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/housing_part_2/</guid>
+      <description>&lt;h2 id=&#34;this-is-the-first-paragraph&#34;&gt;This is the first paragraph.&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://foto.adamkowal.info/wp-content/gallery/housing_australia/thumbs/thumbs_p1940228.jpg&#34; alt=&#34;alt text&#34; title=&#34;housing part 2&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lists</title>
+      <link>//localhost:1313/list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/list/</guid>
+      <description>&lt;h2 id=&#34;this-is-the-first-paragraph&#34;&gt;This is the first paragraph.&lt;/h2&gt;&#xA;&lt;h2 id=&#34;warn--dart-sass-deprecated-color-functions-cusersicedocumentshugo-fotozthemesgalleriesdeluxeassetsscssgalleriesdeluxestylesscss3024-darken-is-deprecated-suggestions&#34;&gt;More info and automated migrator: &lt;a href=&#34;https://sass-lang.com/d/import&#34;&gt;https://sass-lang.com/d/import&lt;/a&gt;&#xA;WARN  Dart Sass: DEPRECATED [color-functions]: C:/Users/ice/Documents/Hugo-fotoz/themes/galleriesdeluxe/assets/scss/galleriesdeluxe/styles.scss:30:24: darken() is deprecated. Suggestions:&lt;/h2&gt;&#xA;&lt;h2 id=&#34;alt-text&#34;&gt;&lt;img src=&#34;//localhost:1313/images/65-300x200.jpg&#34; alt=&#34;alt text&#34;&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;alt-text-1&#34;&gt;&lt;img src=&#34;//localhost:1313/images/167-300x200.jpg&#34; alt=&#34;alt text&#34;&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/65-300x200.jpg&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Podrowienia</title>
+      <link>//localhost:1313/posts/pozdrowienia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/pozdrowienia/</guid>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;Pierwszy element&lt;/li&gt;&#xA;&lt;li&gt;Drugi element&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Element&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Element&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;ol start=&#34;5&#34;&gt;&#xA;&lt;li&gt;Element&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Single</title>
+      <link>//localhost:1313/single/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/single/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;second-linbe&#34;&gt;Second linbe&lt;/h2&gt;&#xA;&lt;h2 id=&#34;third-line&#34;&gt;Third Line&lt;/h2&gt;&#xA;&lt;h2 id=&#34;4rd-line&#34;&gt;4rd line&lt;/h2&gt;&#xA;&lt;p&gt;{{ $favorite_food := &amp;ldquo;Cheese&amp;rdquo; }}&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
