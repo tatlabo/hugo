@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Fotoz</title>
-    <link>//localhost:54773/posts/</link>
+    <link>//localhost:1313/posts/</link>
     <description>Recent content in Blog on Fotoz</description>
     <generator>Hugo</generator>
     <language>pl-PL</language>
-    <atom:link href="//localhost:54773/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Podrowienia</title>
-      <link>//localhost:54773/posts/pozdrowienia/</link>
+      <link>//localhost:1313/posts/pozdrowienia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:54773/posts/pozdrowienia/</guid>
+      <guid>//localhost:1313/posts/pozdrowienia/</guid>
       <description>&lt;ol&gt;&#xA;&lt;li&gt;Pierwszy element&lt;/li&gt;&#xA;&lt;li&gt;Drugi element&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Element&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Element&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;ol start=&#34;5&#34;&gt;&#xA;&lt;li&gt;Element&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
   </channel>
