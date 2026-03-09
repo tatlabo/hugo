@@ -4,4 +4,7 @@
     <title>{{ .Title }}</title>
     {{ $style := resources.Get "css/style.css" }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    {{ $script := resources.Get "js/main.js" }}
+    <script src="{{ $script.RelPermalink }}" defer></script>
+    
 </head>

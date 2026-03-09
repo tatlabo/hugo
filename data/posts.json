@@ -1,0 +1,166 @@
+[
+    {
+        "name": "housing, odc. 2",
+        "date": "2012-01-20 00:03:26",
+        "slug": "housing-part-2",
+
+        "image": "p1940228.jpg",
+        "tags": ["housing", "Sydney"]
+    },
+    {
+        "name": "widokówki z portu",
+        "date": "2011-11-09 12:52:55",
+        "slug": "widokowki-z-portu",
+        "description": "Widok z portu.",
+        "image": "p1880160.jpg",
+        "tags": ["housing", "Sydney"]
+    },
+    {
+        "name": "widokówki z Berowra Park",
+        "date": "2011-11-13 21:21:37",
+        "slug": "berowra-park",
+        "image": "p1900005.jpg",
+        "tags": ["housing", "Sydney"]
+    },
+    {
+        "name": "Ku-ring-gai Chase National Park",
+        "date": "2011-11-13 20:46:39",
+        "slug": "ku-ring-gai-chase-national-park",
+        "image": "p1890174.jpg",
+        "tags": ["natura"]
+    },
+    {
+        "name": "plaże",
+        "date": "2011-11-28 18:57:44",
+        "slug": "plaze",
+        "image": "p1920072.jpg",
+        "tags": ["plaża", "natura"]
+    },
+    {
+        "name": "ferry (prom)",
+        "date": "2011-11-26 22:22:26",
+        "slug": "ferry",
+
+        "image": "p1910319.jpg"
+    },
+    {
+        "name": "Koala park",
+        "date": "2011-11-16 18:58:17",
+        "slug": "koala-park",
+
+        "image": "p1900336.jpg",
+        "tags": ["natura"]
+    },
+    {
+        "name": "The Entrance",
+        "date": "2011-12-11 07:56:38",
+        "slug": "entrance",
+
+        "image": "pict0798.jpg"
+    },
+    {
+        "name": "Cabramatta",
+        "date": "2011-11-27 20:10:08",
+        "slug": "cabramatta",
+
+        "image": "p1920025.jpg"
+    },
+    {
+        "name": "mgła",
+        "date": "2011-11-20 20:27:25",
+        "slug": "mgla",
+        "description":"Mgła",
+        "image": "img_3436.jpg",
+        "tags": ["Sydney", "natura"]
+    },
+    {
+        "name": "widokówki znad zatoki",
+        "date": "2011-12-16 22:10:37",
+        "slug": "widokowki-znad-zatoki",
+        "description":"Widok z portu w Sydney, z mostem Harbour Bridge i operą w tle.",
+        "image": "p1930499.jpg",
+        "tags": ["Sydney"]
+    },
+    {
+        "name": "Ludzie",
+        "date": "2011-12-17 11:46:05",
+        "slug": "ludzie",
+        "description":"Ludzie w Sydney.",
+        "image": "P1930490.jpg",
+        "tags": ["Sydney"]
+    },
+    {
+        "name": "Sydney Opera House",
+        "date": "2011-11-14 22:28:00",
+        "slug": "sydney-opera-house",
+        "description":"Widok z portu w Sydney, z mostem Harbour Bridge i operą w tle.",
+        "image": "p1900058.jpg",
+        "tags": ["Sydney"]
+    },  
+    {
+        "name": "plaże odc. 2",
+        "date": "2011-12-18 23:01:19",
+        "slug": "beaches",
+
+        "image": "p1930553.jpg",
+        "tags": ["plaża", "natura"]
+    },
+    {
+        "name": "Cronulla. Bez tłumów na plaży.",
+        "date": "2011-12-21 22:21:48",
+        "slug": "cronulla",
+
+        "image": "p1930645.jpg",
+        "tags": ["plaża", "natura"]
+    },
+    {
+        "name": "Christmas",
+        "date": "2011-12-26 21:09:57",
+        "slug": "christmas",
+
+        "image": "p1930754.jpg",
+        "tags": ["christmas", "Sydney"]
+    },
+    {
+        "name": "Mona Vale. Plaże odc. 4.",
+        "date": "2011-12-27 12:45:44",
+        "slug": "mona-vale",
+
+        "image": "p1930780.jpg",
+        "tags": ["natura"]
+    },
+    {
+        "name": "Canberra",
+        "date": "2011-12-31 11:49:30",
+        "slug": "canberra",
+
+        "image": "p1940051.jpg",
+        "tags": ["Canberra"]
+    },
+    {
+        "name": "01.01.2012",
+        "date": "2012-01-01 22:00:28",
+        "slug": "nowy-rok",
+
+        "image": "p1940191.jpg",
+        "tags": ["nowy rok", "Sydney"]
+    },
+    {
+        "name": "Brooklyn, NSW, Australia",
+        "date": "2012-01-04 21:47:33",
+        "slug": "brooklyn",
+
+        "image": "p1940265.jpg",
+        "tags": ["natura"]
+    },
+    {
+        "name": "housing",
+        "date": "2012-01-17 20:59:47",
+        "slug": "housing",
+
+        "image": "p1940439.jpg",
+        "tags": ["Sydney"]
+
+    }
+
+]

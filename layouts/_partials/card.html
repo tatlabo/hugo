@@ -1,0 +1,13 @@
+<div class="card">
+  <img src="/{{ .slug }}/{{ .image }}" alt="{{ .name }}">
+  <h2><a href="{{ .slug }}">{{ .name }}</a></h2>
+  <p>{{ .description }}</p>
+  <time datetime="{{ .date | dateFormat `2006-01-02` }}">{{ .date | dateFormat "2006-01-02" }}</time>
+  {{if .tags}}
+    <ul id="tags" class="tags flex-row">
+    {{ range .tags }}
+        <li>{{ . }}</li>
+    {{ end }}
+    </ul>
+  {{end}}
+</div>

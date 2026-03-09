@@ -14,17 +14,20 @@
   "params": {
     "name": "Strona z moimi zdjęciami",
     "author": "Adam Kawal",
-    "keywords": "fotografia, zdjęcia, galeria"
+    "keywords": "pamiątka z podróży"
   },
   "markup": {
     "goldmark": {
       "parser": {
-         "wrapStandAloneImageWithinParagraph": false,
+        "wrapStandAloneImageWithinParagraph": false,
         "attribute": {
           "block": true,
           "title": true
         }
       }
     }
+  },
+  "taxonomies": {
+    "tag": "tags"
   }
 }

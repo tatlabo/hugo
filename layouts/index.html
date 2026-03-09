@@ -1,0 +1,12 @@
+
+{{ define "main" }}
+<ul id="tags">
+    <li>All</li>
+</ul>
+<main>
+{{ $data := site.Data.posts }}
+{{ range $data }}
+{{ partial "card.html" . }}
+{{ end }}
+</main>
+{{ end }}

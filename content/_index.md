@@ -1,4 +1,3 @@
 ---
-title: Home
+title: Fotoz
 ---
-Hello Hugo. Markdown content.

@@ -2,10 +2,10 @@
 {{ define "main"  }}
 
 <h1>My Posts</h1>
-<ul>
+<ol>
     {{ range .Pages }}
         <li><a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Date.Format "Jan 2, 2006" }}</li>
     {{ end }}
-</ul>
+</ol>
 
 {{ end }}
