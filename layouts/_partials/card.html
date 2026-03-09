@@ -1,13 +1,15 @@
 <div class="card">
-  <img src="/{{ .slug }}/{{ .image }}" alt="{{ .name }}">
+  <a href="{{ .slug }}">
+    <img src="/{{ .slug }}/{{ .image }}" alt="{{ .name }}">
+  </a>
   <h2><a href="{{ .slug }}">{{ .name }}</a></h2>
   <p>{{ .description }}</p>
   <time datetime="{{ .date | dateFormat `2006-01-02` }}">{{ .date | dateFormat "2006-01-02" }}</time>
   {{if .tags}}
-    <ul id="tags" class="tags flex-row">
+  <ul id="tags" class="tags flex-row">
     {{ range .tags }}
-        <li>{{ . }}</li>
+    <li>{{ . }}</li>
     {{ end }}
-    </ul>
+  </ul>
   {{end}}
 </div>

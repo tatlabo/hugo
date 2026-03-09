@@ -26,7 +26,7 @@ function filterCardsByTag(tag) {
 }
 
 document.addEventListener('click', (event) => {
-    if (event.target.tagName === 'LI') {
+    if (event.target.tagName === 'LI' && event.target.parentElement.id === 'tags') {
         const tag = event.target.textContent;
         if (activeTag === tag) {
             activeTag = null;
