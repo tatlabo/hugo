@@ -3,13 +3,13 @@
     <img src="/{{ .slug }}/{{ .image }}" alt="{{ .name }}">
   </a>
   <h2><a href="{{ .slug }}">{{ .name }}</a></h2>
-  <p>{{ .description }}</p>
-  <time datetime="{{ .date | dateFormat `2006-01-02` }}">{{ .date | dateFormat "2006-01-02" }}</time>
+  {{ if .description }}<p>{{ .description }}</p>{{ end }}
   {{if .tags}}
   <ul id="tags" class="tags flex-row">
     {{ range .tags }}
     <li>{{ . }}</li>
     {{ end }}
   </ul>
+  <time datetime="{{ .date | dateFormat `2006-01-02` }}">{{ .date | dateFormat "2006-01-02" }}</time>
   {{end}}
 </div>

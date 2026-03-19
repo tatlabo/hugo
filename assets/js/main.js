@@ -55,7 +55,7 @@ function resetFilters() {
 
 const themeToggleBtn = document.getElementById("theme-toggle");
 const sun = "☀";
-const moon = "☽"
+const moon = "☾"
 
 
 function setTheme(theme) {
@@ -86,10 +86,10 @@ if (themeToggleBtn) {
 
         if (currentTheme === "dark") {
             root.setAttribute('data-theme', 'light')
-            themeToggleBtn.textContent = moon
+            themeToggleBtn.textContent = sun
         } else {
             root.setAttribute('data-theme', 'dark')
-            themeToggleBtn.textContent = sun
+            themeToggleBtn.textContent = moon
         }
 
         currentTheme = currentTheme === "light" ? "dark" : "light";
