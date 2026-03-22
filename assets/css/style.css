@@ -23,11 +23,14 @@ html:not([data-theme]) {
 
 img {
     max-width: 100%;
+    display: block;
+
 }
 
 :where(a) {
     text-decoration: none;
 }
+
 :where(figure) {
     margin-inline: 0;
 }
@@ -193,14 +196,41 @@ time {
 }
 
 @media (width < 576px) {
+    main:has(.card) {
+        gap: 0
+    }
+
     body {
-        width: 95vw;
+        width: 100vw;
+    }
+
+    nav {
+        padding-inline: 3vw;
+    }
+
+    :where(.card a img) {
+        width: 100vw;
+        padding: 0;
     }
 
     .card {
-        padding: 1rem 0;
+        padding-block: 0 2rem;
+        padding-inline: 0;
         border: none;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0;
+
+        & a img {
+            border-radius: 0;
+        }
+
+        > :not(a:first-child) {
+            padding-inline: 3vw;
+        }
     }
+
+
 }
 
 .theme-btn {
