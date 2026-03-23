@@ -1,4 +1,6 @@
 {
+  "baseURL": "",
+  "relativeURLs": true,
   "module": {
     "imports": [
       {
@@ -10,7 +12,7 @@
   "title": "fotOz",
   "params": {
     "name": "Strona z moimi zdjęciami",
-    "author": "Adam Kawal",
+    "author": "Adam Kowal",
     "keywords": "pamiątka z podróży"
   },
   "markup": {
