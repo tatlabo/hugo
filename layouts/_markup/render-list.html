@@ -1,0 +1,9 @@
+{{ if eq .Type "ul" }}
+<ul class="gallery-list">
+    {{ .Inner }}
+</ul>
+{{ else }}
+<ol class="gallery-list">
+    {{ .Inner }}
+</ol>
+{{ end }}

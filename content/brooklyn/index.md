@@ -5,11 +5,11 @@ slug: brooklyn
 ---
 
 
-![Brooklyn](p1940258.jpg "Brooklyn")
-![Brooklyn](p1940265.jpg "Brooklyn")
-![Brooklyn](p1940277.jpg "Brooklyn")
-![Brooklyn](p1940290.jpg "Brooklyn")
-![Brooklyn](p1940297.jpg "Brooklyn")
-![Brooklyn](p1940300.jpg "Brooklyn")
-![Brooklyn](p1940308.jpg "Brooklyn")
-![Brooklyn](p1940311.jpg "Brooklyn")
+{{< picture src="p1940258.jpg" alt="Brooklyn" caption="" >}}
+{{< picture src="p1940265.jpg" alt="Brooklyn" caption="" >}}
+{{< picture src="p1940277.jpg" alt="Brooklyn" caption="" >}}
+{{< picture src="p1940290.jpg" alt="Brooklyn" caption="" >}}
+{{< picture src="p1940297.jpg" alt="Brooklyn" caption="" >}}
+{{< picture src="p1940300.jpg" alt="Brooklyn" caption="" >}}
+{{< picture src="p1940308.jpg" alt="Brooklyn" caption="" >}}
+{{< picture src="p1940311.jpg" alt="Brooklyn" caption="" >}}

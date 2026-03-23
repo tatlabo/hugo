@@ -1,0 +1,10 @@
+{{ define "main" }}
+<section class="section">
+    {{ .Content }}
+    <ul class="gallery-list">
+        {{ range .Resources.ByType "image" }}
+        <li><img src="{{ .RelPermalink }}" alt="{{ .Title }}"></li>
+        {{ end }}
+    </ul>
+</section>
+{{ end }}

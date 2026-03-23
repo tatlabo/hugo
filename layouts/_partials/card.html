@@ -1,6 +1,26 @@
 <div class="card">
   <a href="{{ .slug }}" class="href-image">
-    <img src="/{{ .slug }}/{{ .image }}" alt="{{ .name }}">
+    {{- $page := site.GetPage .slug -}}
+    {{- if $page -}}
+      {{- $img := $page.Resources.GetMatch .image -}}
+      {{- if $img -}}
+        {{- $webpSmall := $img.Process "resize 480x webp" -}}
+        {{- $webp := $img.Process "webp" -}}
+    <picture>
+      <source srcset="{{ $webpSmall.RelPermalink }}" type="image/webp" media="(max-width: 480px)">
+      <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
+      <img src="{{ $img.RelPermalink }}" alt="{{ .name }}" loading="lazy">
+    </picture>
+      {{- else -}}
+    <picture>
+      <img src="/{{ .slug }}/{{ .image }}" alt="{{ .name }}" loading="lazy">
+    </picture>
+      {{- end -}}
+    {{- else -}}
+    <picture>
+      <img src="/{{ .slug }}/{{ .image }}" alt="{{ .name }}" loading="lazy">
+    </picture>
+    {{- end -}}
   </a>
   <h2><a href="{{ .slug }}">{{ .name }}</a></h2>
   {{ if .description }}<p>{{ .description }}</p>{{ end }}
