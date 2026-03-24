@@ -11,9 +11,8 @@
   "languageCode": "pl-PL",
   "title": "fotOz",
   "params": {
-    "name": "Strona z moimi zdjęciami",
-    "author": "Adam Kowal",
-    "keywords": "pamiątka z podróży"
+    "name": "wspominki z podróży",
+    "author": "Adam Kowal"
   },
   "markup": {
     "goldmark": {

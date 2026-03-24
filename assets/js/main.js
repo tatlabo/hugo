@@ -36,7 +36,6 @@ document.addEventListener('click', (event) => {
         filterCardsByTag(tag);
         activeTag = tag;
     }
-    console.log(activeTag);
 });
 
 function resetFilters() {
@@ -56,47 +55,35 @@ function resetFilters() {
 const themeToggleBtn = document.getElementById("theme-toggle");
 const sun = "☀";
 const moon = "☾"
-
-
-function setTheme(theme) {
-    document.documentElement.setAttribute('data-theme', theme);
-}
-
+const savedTheme = localStorage.getItem("theme") || "light"; // Default to light theme if not set
 
 document.addEventListener("DOMContentLoaded", () => {
-    const savedTheme = localStorage.getItem("theme") || "light"; // Default to light theme if not set
-    setTheme(savedTheme); // Set the initial theme
 
-    if (themeToggleBtn) {
-        if (savedTheme === "dark" && themeToggleBtn !== null) {
-            themeToggleBtn.textContent = sun;
-        } else {
-            themeToggleBtn.textContent = moon;
-        }
+    document.documentElement.setAttribute('data-theme', savedTheme);
+
+    if (savedTheme === "light") {
+        themeToggleBtn.textContent = moon;
+    } else {
+        themeToggleBtn.textContent = sun;
     }
+
 })
 
-if (themeToggleBtn) {
-    
 
-    themeToggleBtn.addEventListener("click", (e) => {
 
-        const root = document.firstElementChild;
-        let currentTheme = root.getAttribute("data-theme");
 
-        if (currentTheme === "dark") {
-            root.setAttribute('data-theme', 'light')
-            themeToggleBtn.textContent = sun
-        } else {
-            root.setAttribute('data-theme', 'dark')
-            themeToggleBtn.textContent = moon
-        }
+themeToggleBtn.addEventListener("click", (e) => {
 
-        currentTheme = currentTheme === "light" ? "dark" : "light";
-        localStorage.setItem("theme", currentTheme);
+    const root = document.firstElementChild;
+    const isLight = root.getAttribute("data-theme") === "light";
 
-    })
-}
+    root.setAttribute('data-theme', isLight ? "dark" : "light")
+    localStorage.setItem("theme", isLight ? "dark" : "light");
+    themeToggleBtn.textContent = themeToggleBtn.textContent === moon ? sun : moon;
+
+
+})
+
 
 
 

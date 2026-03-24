@@ -4,10 +4,12 @@
 
 {{ $img := .Page.Resources.GetMatch $src }}
 {{ if $img }}
-  {{ $webp := $img.Process "webp" }}
+  {{ $webpSmall := $img.Process "resize 576x webp" }}
+  {{- $webp := $img.Process "webp" -}}
 <figure>
   <picture>
-    <source srcset="{{ $webp.RelPermalink }}" type="image/webp" media="(max-width: 480px)">
+    <source srcset="{{ $webpSmall.RelPermalink }}" type="image/webp" media="(max-width: 480px)">
+    <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
     <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" loading="lazy">
   </picture>
   {{ with $caption }}<figcaption>{{ . }}</figcaption>{{ end }}
@@ -18,3 +20,5 @@
   {{ with $caption }}<figcaption>{{ . }}</figcaption>{{ end }}
 </figure>
 {{ end }}
+
+

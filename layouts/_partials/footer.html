@@ -4,10 +4,9 @@
 
 {{ with .Site.Params }}
     <footer>
-        <ul>
-            <li>{{ .name }}</li>
+        <ul class="footer-info">
             <li>{{ .author }}</li>
-            <li>{{ .keywords }}</li>
+            <li>{{ .name }}</li>
         </ul>
     </footer>
 {{ end }}
