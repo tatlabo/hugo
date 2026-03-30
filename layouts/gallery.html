@@ -1,9 +1,22 @@
 {{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ $imgs := .Resources.Match "/*" }}
+
 <section class="section">
-    {{ .Content }}
     <ul class="gallery-list">
-        {{ range .Resources.ByType "image" }}
-        <li><img src="{{ .RelPermalink }}" alt="{{ .Title }}"></li>
+        {{ range $imgs }}
+        {{ $img := . }}
+        {{ $webp := $img.Resize "1200x webp" }}
+        {{ $webpSmall := $img.Resize "480x webp" }}
+
+        <li>
+            <picture>
+                <source srcset="{{ $webpSmall.RelPermalink }}" type="image/webp" media="(max-width: 480px)">
+                <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
+                <img src="{{ .RelPermalink }}" alt="{{ .Title }}" loading="lazy">
+            </picture>
+        </li>
+
         {{ end }}
     </ul>
 </section>
