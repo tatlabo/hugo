@@ -8,9 +8,9 @@
   {{- $webp := $img.Process "webp" -}}
 <figure>
   <picture>
-    <source srcset="{{ $webpSmall.RelPermalink }}" type="image/webp" media="(max-width: 480px)">
-    <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
-    <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" loading="lazy">
+    <source srcset="{{ $webpSmall.RelPermalink }}" type="image/webp" media="(max-width: 480px)" loading="lazy">
+    <source srcset="{{ $webp.RelPermalink }}" type="image/webp" loading="lazy">
+    <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" loading="lazy" decoding="async">
   </picture>
   {{ with $caption }}<figcaption>{{ . }}</figcaption>{{ end }}
 </figure>

@@ -6,5 +6,12 @@
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     {{ $script := resources.Get "./js/main.js" }}
     <script src="{{ $script.RelPermalink }}" defer></script>
-    
+
+<script>
+    const slugs = [
+        {{- range $i, $p := site.Data.posts -}}
+            "{{ $p.slug }}"{{ if lt $i (sub (len site.Data.posts) 1) }},{{ end }}
+        {{- end -}}
+    ];
+</script>
 </head>

@@ -58,41 +58,65 @@ const moon = "☾"
 const savedTheme = localStorage.getItem("theme") || "light"; // Default to light theme if not set
 
 document.addEventListener("DOMContentLoaded", () => {
+    setTheme()
+})
 
+
+function setTheme() {
     document.documentElement.setAttribute('data-theme', savedTheme);
-
+    
     if (savedTheme === "light") {
         themeToggleBtn.textContent = moon;
     } else {
         themeToggleBtn.textContent = sun;
     }
+    
+}
 
-})
-
-
-
-
-themeToggleBtn.addEventListener("click", (e) => {
+function changeTheme() {
 
     const root = document.firstElementChild;
     const isLight = root.getAttribute("data-theme") === "light";
-
+    
     root.setAttribute('data-theme', isLight ? "dark" : "light")
     localStorage.setItem("theme", isLight ? "dark" : "light");
     themeToggleBtn.textContent = themeToggleBtn.textContent === moon ? sun : moon;
 
-
-})
-
+}    
 
 
-
+themeToggleBtn.addEventListener("click", () => changeTheme() )
 
 
 
+if (slugs) {
 
+    const currnet = window.location.pathname.replaceAll('/',"")
+    const index = slugs.indexOf(currnet)
 
+    document.addEventListener("keydown", (evt) => {
 
-
+        const key = evt.key.toLowerCase()
+    
+        switch (key) {
+            case "arrowleft":
+            case 'p':
+                window.location.href = `/${slugs.at(index-1)}`
+                break;
+    
+            case "arrowright":
+            case 'n':
+                if (index === slugs.length - 1) {
+                    window.location.href = `/${slugs.at(0)}`
+                    break
+                }
+                window.location.href = `/${slugs.at(index+1)}`
+                break;
+            case 'l':
+                changeTheme()
+                break;
+        }
+    });
+}
 
 

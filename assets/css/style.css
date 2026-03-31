@@ -58,6 +58,7 @@ img {
     --active: var(--green);
     --hover: var(--green);
     --a-href-color: black;
+    --color-time-light: rgb(90, 90, 90);
 }
 
 :where(html[data-theme="dark"]) {
@@ -69,6 +70,8 @@ img {
     --hover: var(--yellow);
     --border-card: 1px solid rgb(78, 78, 78);
     --a-href-color: white;
+    --color-time-light: rgb(250, 250, 250);
+    
 }
 
 body {
@@ -162,7 +165,7 @@ ul {
 time {
     font-size: 0.75rem;
     margin-top: 0.5rem;
-    color: rgb(150, 150, 150);
+    color: var(--color-time-light);
 }
 
 .section {

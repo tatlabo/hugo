@@ -1,6 +1,7 @@
 {
   "baseURL": "",
-  "relativeURLs": true,
+  "relativeURLs": false,
+  "canonifyURLs": false,
   "module": {
     "imports": [
       {
