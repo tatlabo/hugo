@@ -4,12 +4,12 @@ date: 2011-11-14
 ---
 
 
-!["Sydney Opera Hhouse"](p1900058.jpg "Sydney Opera Hhouse")
-!["Sydney Opera Hhouse"](p1900062.jpg "Sydney Opera Hhouse")
-!["Sydney Opera Hhouse"](p1900063.jpg "Sydney Opera Hhouse")
-!["Sydney Opera Hhouse"](p1900067.jpg "Sydney Opera Hhouse")
-!["Sydney Opera Hhouse"](p1900069.jpg "Sydney Opera Hhouse")
-!["Sydney Opera Hhouse"](p1900074.jpg "Sydney Opera Hhouse")
-!["Sydney Opera Hhouse"](p1900077.jpg "Sydney Opera Hhouse")
-!["Sydney Opera Hhouse"](p1900081.jpg "Sydney Opera Hhouse")
-!["Sydney Opera Hhouse"](p1900082.jpg "Sydney Opera Hhouse")
+{{< picture src="p1900058.jpg" alt="Sydney Opera Hhouse" caption="" >}}
+{{< picture src="p1900062.jpg" alt="Sydney Opera Hhouse" caption="" >}}
+{{< picture src="p1900063.jpg" alt="Sydney Opera Hhouse" caption="" >}}
+{{< picture src="p1900067.jpg" alt="Sydney Opera Hhouse" caption="" >}}
+{{< picture src="p1900069.jpg" alt="Sydney Opera Hhouse" caption="" >}}
+{{< picture src="p1900074.jpg" alt="Sydney Opera Hhouse" caption="" >}}
+{{< picture src="p1900077.jpg" alt="Sydney Opera Hhouse" caption="" >}}
+{{< picture src="p1900081.jpg" alt="Sydney Opera Hhouse" caption="" >}}
+{{< picture src="p1900082.jpg" alt="Sydney Opera Hhouse" caption="" >}}

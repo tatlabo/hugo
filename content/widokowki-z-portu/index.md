@@ -5,7 +5,7 @@ date:  2011-11-09
 
 
 09listopad:
-- ![Widokówki z portu](p1880158.jpg "Widokówki z portu")
-- ![Widokówki z portu](p1880160.jpg "Widokówki z portu")
-- ![Widokówki z portu](p1880168.jpg "Widokówki z portu")
-- ![Widokówki z portu](p1900055.jpg "Widokówki z portu")
+{{< picture src="p1880158.jpg" alt="Widokówki z portu" caption="" >}}
+{{< picture src="p1880160.jpg" alt="Widokówki z portu" caption="" >}}
+{{< picture src="p1880168.jpg" alt="Widokówki z portu" caption="" >}}
+{{< picture src="p1900055.jpg" alt="Widokówki z portu" caption="" >}}
