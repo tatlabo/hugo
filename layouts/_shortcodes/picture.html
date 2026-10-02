@@ -1,16 +1,22 @@
 {{ $src := .Get "src" }}
 {{ $alt := .Get "alt" | default "" }}
 {{ $caption := .Get "caption" }}
+{{ $width := .Get "width" | default ""}}
+{{ $height := .Get "height" | default ""}}
 
 {{ $img := .Page.Resources.GetMatch $src }}
 {{ if $img }}
-  {{ $webpSmall := $img.Process "resize 576x webp" }}
-  {{- $webp := $img.Process "webp" -}}
+{{- $webpSmall := $img.Process "resize 480x webp" -}}
+{{- $webp := $img.Process "webp" -}}
+
+
+
 <figure>
   <picture>
     <source srcset="{{ $webpSmall.RelPermalink }}" type="image/webp" media="(max-width: 480px)" loading="lazy">
     <source srcset="{{ $webp.RelPermalink }}" type="image/webp" loading="lazy">
-    <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+    <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" loading="lazy" decoding="async" {{ with $img }}
+      width="{{ $img.Width }}" height="{{ $img.Height }}" {{ end }}>
   </picture>
   {{ with $caption }}<figcaption>{{ . }}</figcaption>{{ end }}
 </figure>
@@ -20,5 +26,3 @@
   {{ with $caption }}<figcaption>{{ . }}</figcaption>{{ end }}
 </figure>
 {{ end }}
-
-
