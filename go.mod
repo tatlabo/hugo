@@ -1,5 +1,5 @@
 module my-site
 
-go 1.25.5
+go 1.27.1
 
-require github.com/bep/hugo-mod-misc/common-partials v0.1.0 // indirect
+require github.com/go-echarts/go-echarts/v2 v2.7.1
